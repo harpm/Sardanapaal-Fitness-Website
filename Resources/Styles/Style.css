@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+}
+
+body {
+    background-image: url("../Img/Background.jpg");
+    color:beige;
+}
+  
+* {
+    font-family: 'Source Sans Pro';
+}
+
+.title,h2 {
+    display: inline;
+    float: left;
+    padding-left: 8px;
+    margin-top: 12px;
+}
+
+.reg {
+    float: left;
+
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    border-style: solid;
+
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 1.25in;
+    padding-right: 1.25in;
+
+    position: absolute;
+
+    left: 5%;
+    top: 18%;
+
+    text-align: center;
+    align-self: center;
+
+    background-color: rgba(21, 26, 35, 0.315);
+}
+
+.reg input {
+    
+    display: block;
+    border-radius: 4px;
+    width: 2.75in;
+    
+    text-align: center;
+    font-weight: bold;
+    
+    padding-top: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-antique {
+    border-radius: 8px;
+    border-width: 1.5px;
+    border-color: antiquewhite;
+    border-style: solid;
+
+    background-color: rgb(5, 0, 34);
+
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    color: antiquewhite;
+
+    margin-left: 4px;
+
+    transition-duration: 250ms;
+}
+
+.submit-antique:hover {
+    background-color: rgb(17, 16, 39);
+    /* border-color: darkred; */
+    transition-duration: 250ms;
+}
+
+nav {
+    position: fixed;
+    left: 30%;
+}
+
+.navigation ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.navigation ul li {
+    font-weight: 500;
+    margin: 14px;
+    display: inline;
+}
+
+.navigation ul li:hover {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.auth-btn {
+    float: right;
+
+    margin-top: 14px;
+    margin-right: 16px;
+}
+
+.auth-btn button {
+    display: inline;
+
+    border-radius: 5px;
+    border-color: antiquewhite;
+    border-width: 1px;
+    border-style: solid;
+
+    background-color: black;
+
+    color: antiquewhite;
+
+    padding: 5px 6px 5px 6px;
+}
