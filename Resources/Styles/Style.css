@@ -14,6 +14,7 @@ body {
 
 .title {
     float: left;
+    width: 25%;
     margin-left: 2.5%;
 }
 
@@ -25,13 +26,9 @@ body {
     border-color: antiquewhite;
     border-style: solid;
 
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    padding-left: 5%;
-    padding-right: 5%;
-
     position: absolute;
 
+    width: 25%;
     left: 10%;
     top: 25%;
 
@@ -42,25 +39,26 @@ body {
 }
 
 .reg-container h3 {
-    margin-top: 4px;
-    margin-bottom: 8%;
+    margin-top: 20px;
+    margin-bottom: 24px;
 }
 
-.reg-container input {
-    
-    display: block;
-    
+.reg-container input {    
     border-radius: 4px;
     border-style: ridge;
 
-    width: 2.75in;
+    width: 75%;
     
     text-align: center;
     font-weight: bold;
     
     padding-top: 4px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+
+    display: block;
 }
 
 .reg-container .submit-antique {
@@ -70,17 +68,12 @@ body {
 
     background-color: rgb(5, 0, 34);
 
-    padding-left: 8px;
-    padding-right: 8px;
-
-    margin-top: 24px;
-    margin-left: 4px;
-    margin-bottom: 4px;
+    margin-top: 8px;
+    margin-bottom: 20px;
 
     transition-duration: 250ms;
 
     color: antiquewhite;
-
 }
 
 .submit-antique:hover {
@@ -95,11 +88,11 @@ body {
 
 nav {
     position: fixed;
+    width: 50%;
     left: 40%;
 }
 
 .navigation ul {
-    display: inline-block;
     list-style: none;
 }
 
@@ -128,13 +121,14 @@ nav {
 
 .auth-btn {
     float: right;
+    width: 25%;
 
     margin-top: 1%;
     margin-right: 2%;
 }
 
 .auth-btn button {
-    display: inline;
+    float: right;
 
     border-radius: 5px;
     border-color: antiquewhite;
@@ -155,4 +149,26 @@ nav {
 
 .auth-btn button:active {
     border-color: orangered;
+}
+
+@media screen and (max-width: 1080px) {
+    .title, .reg-container, .auth-btn, nav {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+
+        left: 0%;
+        top: 0%;
+        text-align: center;
+    }
+
+    .reg-container {
+        float: none;
+        align-self: center;
+    }
+
+    .reg-container input {
+        display: block;
+    }
 }
