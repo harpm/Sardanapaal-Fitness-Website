@@ -28,7 +28,7 @@ body {
 
     position: absolute;
 
-    width: 25%;
+    width: 35%;
     left: 10%;
     top: 25%;
 
@@ -126,8 +126,6 @@ nav {
 .auth-btn {
     float: right;
     width: 25%;
-
-    margin-top: 1%;
     margin-right: 2%;
 }
 
@@ -154,37 +152,3 @@ nav {
 .auth-btn button:active {
     border-color: orangered;
 }
-
-@media screen and (max-width: 900px) {
-    .title, .reg-container, nav {
-        position: relative;
-        display: block;
-        width: 100%;
-        height: auto;
-
-        left: 0%;
-        top: 0%;
-        text-align: center;
-    }
-
-    .reg-container {
-        float: none;
-        align-self: center;
-    }
-
-    .reg-container input {
-        display: block;
-    }
-
-    .auth-btn {
-        width: 100%;
-        display: block;
-        float: unset;
-    }
-}
-
-/* @media screen and (max-width: 680px) {
-    .auth-btn {
-        display: none;
-    }    
-} */

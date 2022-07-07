@@ -1,0 +1,29 @@
+.title, .reg-container, nav {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+
+    left: 0%;
+    top: 0%;
+    text-align: center;
+}
+
+.reg-container {
+    float: none;
+    align-self: center;
+    border-radius: 1.5%;
+    width: 90%;
+    margin: 4px 5% 4px 5%;
+}
+
+.reg-container input {
+    display: block;
+}
+
+.auth-btn {
+    width: 100%;
+    display: block;
+    float: unset;
+    margin-top: 12px;
+}
